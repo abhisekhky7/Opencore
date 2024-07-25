@@ -16,9 +16,9 @@ export default function Tabs() {
     };
   
     return (
-    <div className='mt-5 flex justify-between    '>
+    <div className='mt-5 flex justify-between '>
     <div className="p-2 hidden md:flex">    {
-            tabs.map((item,ind) => <button key={ind} className={`border mx-5 p-1 text-[2rem] font-light  m-1  rounded-md ${selectedId === ind ?'bg-gray-300':''}`}
+            tabs.map((item,ind) => <button key={ind} className={`border mx-4 p-1 text-[1rem] font-light  m-1  rounded-md ${selectedId === ind ?'bg-gray-300':''}`}
              onClick={()=>setId(ind)} >
                 {item}
                 </button>)
@@ -58,7 +58,7 @@ export default function Tabs() {
 
  
 
-  // return (
+  
   //   <div className="flex items-center justify-center space-x-4">
   //     {/* Conditionally render buttons based on screen size */}
   //     <div className="hidden md:flex items-center space-x-4">

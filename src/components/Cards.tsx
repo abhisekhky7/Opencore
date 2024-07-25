@@ -19,10 +19,10 @@ export default function Cards() {
                     <Image className=" w-full" src={item.img} height={200} width={200} alt='card_image'/>
                 </div>
                 <div className=''>
-                    <p className=' text-[1.2rem] sm:text-[2rem] text-myBlue sm:mt-1'>{item.title}</p>
+                    <p className=' text-[1rem] sm:text-[1.2rem] text-myBlue sm:mt-2'>{item.title}</p>
                 </div>
                 <div className=''>
-                    <p className='text-[0.6rem] sm:text-[1.2rem] text-myLightBlue'>{item.tags }</p>
+                    <p className='text-[0.6rem] sm:text-[1rem] text-myLightBlue'>{item.tags }</p>
                 </div>
                </div>
             ))

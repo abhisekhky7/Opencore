@@ -11,7 +11,7 @@ export default function Home() {
         <MainTitle />
       </div>
 
-      <div className=" mx-auto border-2 sm:p-5  w-full sm:w-[80%]">
+      <div className=" mx-auto sm:p-5  w-full sm:w-[80%]">
         <div className="border-2 rounded-lg p-2 mb-[3%]">
           <SearchBar />
         </div>

@@ -9,8 +9,8 @@ export default function SearchBar() {
      <span className="text-4xl"> <CiSearch /></span>
     </div>
 
-      <div className="w-full sm:w-1/5">
-        <input className="w-full outline-none text-sm sm:text-2xl" placeholder="Search for resources and tutorials"/>
+      <div className="w-full sm:w-2/5">
+        <input className="w-full outline-none text-sm sm:text-xl" placeholder="Search for resources and tutorials"/>
       </div>
       </div>
     </div>
