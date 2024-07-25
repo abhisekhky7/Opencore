@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
-import { DM_Sans } from 'next/font/google'
+
 export default function Banner() {
   return (
     <div className=' banner  rounded-3xl '>

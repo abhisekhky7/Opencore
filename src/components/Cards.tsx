@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 const data = [
     {img:"one.svg",title:"Case Study Template: FlipX, an Investment Attraction Startup",tags:"Design File"},
