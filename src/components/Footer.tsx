@@ -30,7 +30,7 @@ export default function Footer() {
              </div>
             </div>
 
-            <div className=" w-full sm:w-2/5 border-2 text-myBlue sm:mt-0 mt-[1.5rem] ">
+            <div className=" w-full sm:w-2/5 text-myBlue sm:mt-0 mt-[1.5rem] ">
                 <div className="flex justify-between p-1 ">
                     <div className="text-[0.7rem] sm:text-[1.3rem]">Home</div>
                     <div><p className="text-[0.7rem] sm:text-[1.3rem]">Services</p></div>
