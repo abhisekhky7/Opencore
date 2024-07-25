@@ -22,7 +22,7 @@ export default function Banner() {
 <div className=" flex w-full sm:w-2/3 items-center sm:justify-end  h-[13rem]   mt-[2rem] sm:h-[25rem] sm:mt-0 ">
   <div className="  flex  items-center justify-center mx-auto h-[85%] w-2/3 sm:w-1/3 rounded-full border-2 border-white">
   <p className=" text-[1rem] sm:text-[1.8rem] h-fit  max-w-[50%] text-center text-white ">
-  Let's Work Together!
+ {` Let's Work Together!`}
   </p>
   </div>
 </div>
