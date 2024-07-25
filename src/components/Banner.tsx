@@ -14,7 +14,7 @@ export default function Banner() {
         Transforming <br className=' md:hidden'/> your <br className=' hidden md:block'/>
         <span className="font-bold"> ideas into <br className='md:hidden'/> reality</span></h2>
         <p className=" text-[0.8rem]  sm:text-[2rem]  text-white ">
-    Let's build something extraordinary <br className='md:hidden'/> together to captivate <br className='hidden sm:block' /> your audience.</p>
+   { `Let's build something extraordinary <br className='md:hidden'/> together to captivate <br className='hidden sm:block' /> your audience.`}</p>
 </div>
 
 
